@@ -14,6 +14,7 @@ hadoop fs -put test_demo/trees.csv /input_data
 hadoop fs -copyToLocal /input_data/trees.csv ./
 
 # how to rename file i.e we cannot rename file but we can move the content to new folder which works as rename
+hadoop fs -mv /input_data new_folder_name
 
 
 # Command to execute map reduce code
